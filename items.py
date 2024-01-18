@@ -5,7 +5,6 @@ from typing import Optional
 router = APIRouter()
 
 def get_db():
-    # database connection logic
     db = get_database_connection()
     try:
         yield db
